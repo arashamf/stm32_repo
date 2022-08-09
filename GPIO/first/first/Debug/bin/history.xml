@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=first.map -O0 --gc-sections -LD:\Soft\CooCox\CoIDE\configuration\ProgramData\first -TD:\Soft\CooCox\CoIDE\configuration\ProgramData\first/link.ld -g">
+      <target file="first.elf" lastModified="16a24fe293a">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="16a24ede364"/>
+         <source file="..\obj\main.o" lastModified="16a24fe2785"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="16a24ede40f"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="16a24ede43e"/>
+         <source file="..\obj\syscalls.o" lastModified="16a24ede46d"/>
+      </target>
+   </processor>
+</history>

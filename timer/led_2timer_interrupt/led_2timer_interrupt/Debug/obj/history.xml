@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\led_2timer_interrupt\cmsis_boot -I..\..\..\workspace\led_2timer_interrupt\cmsis_lib -I..\..\..\workspace\led_2timer_interrupt\cmsis -I..\..\..\workspace\led_2timer_interrupt\cmsis_lib\include -I..\..\..\workspace\led_2timer_interrupt -I..\..\..\workspace">
+      <target file="stm32f4xx_rcc.o" lastModified="16a2620f882">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="16a26207881"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="16a2620f8b1">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a0c957e70"/>
+      </target>
+      <target file="syscalls.o" lastModified="16a2620f8ef">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="16a262081b8"/>
+      </target>
+      <target file="main.o" lastModified="16a2620f825">
+         <source file="..\..\..\main.c" lastModified="16a2620f651"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="16a2620f7f6">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16a26207136"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\UART_RX_TX_6\cmsis_boot /I..\..\..\workspace\lesson_3-2 /I..\..\..\workspace\lesson_3-2\UART_RX_TX_5 /I..\..\..\workspace\UART_RX_TX_6\cmsis /I..\..\..\workspace /I..\..\..\workspace\UART_RX_TX_6">
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="16d209f474c">
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="16d209f475b">
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="16d209f64ba">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16d209f3ee0">
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="16d209f4354">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="16d209f3f4d">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a359c06ff">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="16d209f474c">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="16d209fa0e5">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="16d209f4316">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+   </includePath>
+</dependencies>

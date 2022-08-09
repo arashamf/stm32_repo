@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\timer_capture_pwm\cmsis_boot /I..\..\..\workspace\timer_capture_pwm\cmsis /I..\..\..\workspace /I..\..\..\workspace\timer_capture_pwm">
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="16b08aca571">
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="16b08aca57b">
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="16b08acb7cd">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16b08ac9d65">
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="16b08aca17f">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="16b08ac9d83">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a359c06ff">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="16b08aca571">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="16b08acff17">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="16b08aca157">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+   </includePath>
+</dependencies>

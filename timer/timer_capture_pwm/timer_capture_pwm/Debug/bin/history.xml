@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=timer_capture_pwm.map -O0 --gc-sections -LD:\Soft\CooCox\CoIDE\configuration\ProgramData\timer_capture_pwm -TD:\Soft\CooCox\CoIDE\configuration\ProgramData\timer_capture_pwm/link.ld -g">
+      <target file="timer_capture_pwm.elf" lastModified="16b08f34c99">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="16b08adc903"/>
+         <source file="..\obj\main.o" lastModified="16b08f34aa6"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="16b08adc9ae"/>
+         <source file="..\obj\syscalls.o" lastModified="16b08adc9ed"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -I..\..\..\workspace\timer_capture_pwm\cmsis_boot -I..\..\..\workspace\timer_capture_pwm\cmsis -I..\..\..\workspace -I..\..\..\workspace\timer_capture_pwm">
+      <target file="system_stm32f4xx.o" lastModified="16b08adc9ae">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a359c06ff"/>
+      </target>
+      <target file="main.o" lastModified="16b08f34aa6">
+         <source file="..\..\..\main.c" lastModified="16b08f32960"/>
+      </target>
+      <target file="syscalls.o" lastModified="16b08adc9ed">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="16b08aca82d"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="16b08adc903">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16b08ac9d65"/>
+      </target>
+   </processor>
+</history>

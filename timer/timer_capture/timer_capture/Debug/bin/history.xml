@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=timer_capture.map -O0 --gc-sections -LD:\Soft\CooCox\CoIDE\configuration\ProgramData\timer_capture -TD:\Soft\CooCox\CoIDE\configuration\ProgramData\timer_capture/link.ld -g">
+      <target file="timer_capture.elf" lastModified="16b0370af84">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="16afe87f623"/>
+         <source file="..\obj\main.o" lastModified="16b0370ad91"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="16afe87f6ce"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="16afe87f71c"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="16afe87f74b"/>
+         <source file="..\obj\syscalls.o" lastModified="16afe87f7d8"/>
+      </target>
+   </processor>
+</history>

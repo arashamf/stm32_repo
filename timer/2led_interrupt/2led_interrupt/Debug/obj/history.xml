@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\lesson_2-2\2led_interrupt -I..\..\..\workspace\lesson_2-2 -I..\..\..\workspace\lesson_2-2\2led_interrupt\cmsis_lib -I..\..\..\workspace\lesson_2-2\2led_interrupt\cmsis_lib\include -I..\..\..\workspace\lesson_2-2\2led_interrupt\cmsis_boot -I..\..\..\workspace\lesson_2-2\2led_interrupt\cmsis">
+      <target file="stm32f4xx_rcc.o" lastModified="16a348ceec8">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="16a261c73b2"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="16a348ceef6">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a0c957e70"/>
+      </target>
+      <target file="main.o" lastModified="16a354c662d">
+         <source file="..\..\..\main.c" lastModified="16a354c611e"/>
+      </target>
+      <target file="syscalls.o" lastModified="16a348cef24">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="16a261c7fde"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="16a348cee14">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16a261c642a"/>
+      </target>
+   </processor>
+</history>

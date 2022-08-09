@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -I..\..\..\workspace\lesson_3-2\UART_RX_TX_5\cmsis -I..\..\..\workspace\lesson_3-2\UART_RX_TX_5\cmsis_boot -I..\..\..\workspace\lesson_3-2 -I..\..\..\workspace\lesson_3-2\UART_RX_TX_5 -I..\..\..\workspace">
+      <target file="system_stm32f4xx.o" lastModified="16d20353e48">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a359c06ff"/>
+      </target>
+      <target file="main.o" lastModified="16d2428fc0b">
+         <source file="..\..\..\main.c" lastModified="16d20a528bc"/>
+      </target>
+      <target file="syscalls.o" lastModified="16d20353ea6">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="16d1a5f443f"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="16d20353d9c">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16d1a5f3342"/>
+      </target>
+   </processor>
+</history>

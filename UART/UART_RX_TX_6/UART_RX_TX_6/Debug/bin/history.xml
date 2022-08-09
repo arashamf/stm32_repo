@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=UART_RX_TX_6.map -O0 --gc-sections -LD:\Soft\CooCox\CoIDE\configuration\ProgramData\UART_RX_TX_6 -TD:\Soft\CooCox\CoIDE\configuration\ProgramData\UART_RX_TX_6/link.ld -g">
+      <target file="UART_RX_TX_6.elf" lastModified="16d244d2c0b">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="16d24247419"/>
+         <source file="..\obj\main.o" lastModified="16d244d2a56"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="16d242474b5"/>
+         <source file="..\obj\syscalls.o" lastModified="16d24247513"/>
+      </target>
+   </processor>
+</history>

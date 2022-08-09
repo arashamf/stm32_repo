@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=timer_led.map -O0 --gc-sections -LD:\Soft\CooCox\CoIDE\configuration\ProgramData\timer_led -TD:\Soft\CooCox\CoIDE\configuration\ProgramData\timer_led/link.ld -g">
+      <target file="timer_led.elf" lastModified="16a546de42f">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="16a546de142"/>
+         <source file="..\obj\main.o" lastModified="16a546de171"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="16a546de1bf"/>
+         <source file="..\obj\syscalls.o" lastModified="16a546de23b"/>
+      </target>
+   </processor>
+</history>

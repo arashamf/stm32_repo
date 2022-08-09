@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -I..\..\..\workspace\lesson_3-2\UART_RX_TX_4\cmsis -I..\..\..\workspace\lesson_3-2 -I..\..\..\workspace\lesson_3-2\UART_RX_TX_4\cmsis_boot -I..\..\..\workspace\lesson_3-2\UART_RX_TX_4">
+      <target file="system_stm32f4xx.o" lastModified="16d066363c3">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a359c06ff"/>
+      </target>
+      <target file="main.o" lastModified="16d1674a746">
+         <source file="..\..\..\main.c" lastModified="16d1674a3cd"/>
+      </target>
+      <target file="syscalls.o" lastModified="16d066363fb">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="16cfb6a9d91"/>
+      </target>
+      <target file="DELAY_TIM7.o" lastModified="16d0663b1fd">
+         <source file="..\..\..\..\..\delay_lib\DELAY_TIM7.c" lastModified="16b2bf3444e"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="16d06636322">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16cfb6a939f"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=2led_interrupt.map -O0 --gc-sections -LD:\Soft\CooCox\CoIDE\configuration\ProgramData\2led_interrupt -TD:\Soft\CooCox\CoIDE\configuration\ProgramData\2led_interrupt/link.ld -g">
+      <target file="2led_interrupt.elf" lastModified="16a354c6820">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="16a348cee14"/>
+         <source file="..\obj\main.o" lastModified="16a354c662d"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="16a348ceec8"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="16a348ceef6"/>
+         <source file="..\obj\syscalls.o" lastModified="16a348cef24"/>
+      </target>
+   </processor>
+</history>

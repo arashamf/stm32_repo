@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\4led /I..\..\..\workspace\4led\cmsis_boot /I..\..\..\workspace\4led\cmsis /I..\..\..\workspace">
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="16a20e1e914">
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="16a20e1e914">
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="16a20e265ce">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16a20e1ed9c">
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="16a20e1e522">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="16a20e1eda6">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a0c957e70">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="16a20e1e914">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="16a20e24f44">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="16a20e1f184">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+   </includePath>
+</dependencies>

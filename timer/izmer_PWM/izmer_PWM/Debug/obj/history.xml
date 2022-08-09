@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\izmer_PWM\cmsis_lib -I..\..\..\workspace\delay_lib -I..\..\..\workspace\izmer_PWM\cmsis_lib\include -I..\..\..\workspace\izmer_PWM -I..\..\..\workspace\izmer_PWM\cmsis_boot -I..\..\..\workspace\izmer_PWM\cmsis -I..\..\.. -I..\..\..\workspace">
+      <target file="stm32f4xx_rcc.o" lastModified="16b6acff716">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="16b27a7f67f"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="16b6acff745">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a359c06ff"/>
+      </target>
+      <target file="main.o" lastModified="16c7614b5d5">
+         <source file="..\..\..\main.c" lastModified="16c7614144d"/>
+      </target>
+      <target file="syscalls.o" lastModified="16b6acff7a2">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="16b27a7563f"/>
+      </target>
+      <target file="DELAY_TIM7.o" lastModified="16b6acff7e1">
+         <source file="..\..\..\..\delay_lib\DELAY_TIM7.c" lastModified="16b2bf3444e"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="16b6acff61c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="16b27da19ca"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="16b6acff64b">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16b27a7e674"/>
+      </target>
+   </processor>
+</history>

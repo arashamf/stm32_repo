@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\izmer_PWM\cmsis_lib /I..\..\..\workspace\delay_lib /I..\..\..\workspace\izmer_PWM\cmsis_lib\include /I..\..\..\workspace\izmer_PWM /I..\..\..\workspace\izmer_PWM\cmsis_boot /I..\..\..\workspace\izmer_PWM\cmsis /I..\..\.. /I..\..\..\workspace">
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h" lastModified="16b27da19ca">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\delay_lib\DELAY_TIM7.c" lastModified="16b2bf3444e">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\..\delay_lib\DELAY_TIM7.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="16b27a7ee63">
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="16b27a7ee63">
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="16b27a765df">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16b27a7e674">
+      </source>
+      <source file="..\..\..\main.c" lastModified="16c76141c1d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\..\delay_lib\DELAY_TIM7.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="16b27a7ea6c">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="16b27a7e684">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="16b27a7f67f">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="16b27da19ca">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a359c06ff">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="16b27a7ee54">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="16b27a8405c">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="16b27a7ea5c">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\..\delay_lib\DELAY_TIM7.h" lastModified="16b2bec60b8">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="16b27a7f67f">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+   </includePath>
+</dependencies>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\lesson_2-3\timer_PWM -I..\..\..\workspace\lesson_2-3\timer_PWM\cmsis_lib -I..\..\..\workspace\lesson_2-3 -I..\..\..\workspace\lesson_2-3\timer_PWM\cmsis_boot -I..\..\..\workspace\lesson_2-3\timer_PWM\cmsis_lib\include -I..\..\..\workspace\lesson_2-3\timer_PWM\cmsis">
+      <target file="stm32f4xx_rcc.o" lastModified="16a30a35fe4">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="16a2a37ca9e"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="16a359ebcc2">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a359c06ff"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="16a30a36032">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="16a2b49b89c"/>
+      </target>
+      <target file="main.o" lastModified="16a359ebc83">
+         <source file="..\..\..\main.c" lastModified="16a3591c2eb"/>
+      </target>
+      <target file="syscalls.o" lastModified="16a30a3612b">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="16a2a372e88"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="16a30a35f29">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16a2a37243f"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=4led.map -O0 --gc-sections -LD:\Soft\CooCox\CoIDE\configuration\ProgramData\4led -TD:\Soft\CooCox\CoIDE\configuration\ProgramData\4led/link.ld -g">
+      <target file="4led.elf" lastModified="16a20ede5e9">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="16a20e93409"/>
+         <source file="..\obj\main.o" lastModified="16a20ede41d"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="16a20e93463"/>
+         <source file="..\obj\syscalls.o" lastModified="16a20e93495"/>
+      </target>
+   </processor>
+</history>

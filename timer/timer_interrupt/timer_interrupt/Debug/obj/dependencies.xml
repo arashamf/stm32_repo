@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\lesson_3\timer_interrupt\cmsis_boot /I..\..\..\workspace\lesson_3 /I..\..\..\workspace\lesson_3\timer_interrupt\cmsis /I..\..\..\workspace\lesson_3\timer_interrupt\cmsis_lib\include /I..\..\..\workspace\lesson_3\timer_interrupt /I..\..\..\workspace\lesson_3\timer_interrupt\cmsis_lib">
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="16a25454cf7">
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="16a25454cf7">
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="16a25455c8a">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16a254544e9">
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="16a25454900">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="16a25454508">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="16a254568a2">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a0c957e70">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="16a25454ce8">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="16a2545a2b8">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="16a254548d1">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="16a254568b1">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\workspace\timer_interrupt\cmsis_lib /I..\..\..\workspace\timer_interrupt\cmsis /I..\..\..\workspace\timer_interrupt /I..\..\..\workspace\timer_interrupt\cmsis_lib\include /I..\..\..\workspace /I..\..\..\workspace\timer_interrupt\cmsis_boot">
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16a254544e9">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="16a25454508">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="16a254568a2">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a0c957e70">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="16a254568b1">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+   </includePath>
+</dependencies>

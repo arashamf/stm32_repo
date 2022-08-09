@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\lesson_3-2\UART_RX_TX_4\cmsis /I..\..\..\workspace\lesson_3-2 /I..\..\..\workspace\lesson_3-2\UART_RX_TX_4\cmsis_boot /I..\..\..\workspace\lesson_3-2\UART_RX_TX_4">
+      <source file="..\..\..\..\..\delay_lib\DELAY_TIM7.c" lastModified="16b2bf3444e">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\..\..\delay_lib\DELAY_TIM7.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="16cfb6a9bdc">
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="16cfb6a9bec">
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="16cfb6aad31">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16cfb6a939f">
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="16cfb6a97e4">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="16cfb6a93be">
+      </source>
+      <source file="..\..\..\..\..\delay_lib\DELAY_TIM7.h" lastModified="16b2bec60b8">
+      </source>
+      <source file="..\..\..\DELAY_TIM7.h" lastModified="16b2bec60b8">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a359c06ff">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="16cfb6a9bcc">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="16cfb6af556">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="16cfb6a9796">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+   </includePath>
+</dependencies>

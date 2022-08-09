@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=izmer_PWM.map -O0 --gc-sections -LD:\Soft\CooCox\CoIDE\configuration\ProgramData\izmer_PWM -TD:\Soft\CooCox\CoIDE\configuration\ProgramData\izmer_PWM/link.ld -g">
+      <target file="izmer_PWM.elf" lastModified="16c7614b7d8">
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="16b6acff61c"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="16b6acff64b"/>
+         <source file="..\obj\main.o" lastModified="16c7614b5d5"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="16b6acff716"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="16b6acff745"/>
+         <source file="..\obj\syscalls.o" lastModified="16b6acff7a2"/>
+         <source file="..\obj\DELAY_TIM7.o" lastModified="16b6acff7e1"/>
+      </target>
+   </processor>
+</history>

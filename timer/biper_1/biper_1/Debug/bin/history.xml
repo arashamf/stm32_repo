@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=biper_1.map -O0 --gc-sections -LD:\Soft\CooCox\CoIDE\configuration\ProgramData\biper_1 -TD:\Soft\CooCox\CoIDE\configuration\ProgramData\biper_1/link.ld -g">
+      <target file="biper_1.elf" lastModified="16d0134f49c">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="16cfc277eee"/>
+         <source file="..\obj\main.o" lastModified="16d0134f259"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="16cfc277fc8"/>
+         <source file="..\obj\syscalls.o" lastModified="16cfc277ffe"/>
+         <source file="..\obj\DELAY_TIM7.o" lastModified="16cfc280ddd"/>
+      </target>
+   </processor>
+</history>

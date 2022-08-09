@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\lesson_2 /I..\..\..\workspace\lesson_2\timer_led\cmsis_boot /I..\..\..\workspace\lesson_2\timer_led\cmsis /I..\..\..\workspace\lesson_2\timer_led">
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="16a21150ebe">
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="16a21150ebe">
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="16a211520ac">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16a211506d0">
+      </source>
+      <source file="..\..\..\main.c" lastModified="16a268a5624">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="16a21150acc">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="16a211506da">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a0c957e70">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="16a21150eb4">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="16a21156882">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="16a21150ac2">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+   </includePath>
+</dependencies>

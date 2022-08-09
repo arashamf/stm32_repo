@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=timer_interrupt.map -O0 --gc-sections -LD:\Soft\CooCox\CoIDE\configuration\ProgramData\timer_interrupt -TD:\Soft\CooCox\CoIDE\configuration\ProgramData\timer_interrupt/link.ld -g">
+      <target file="timer_interrupt.elf" lastModified="16a2691495f">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="16a2621cd15"/>
+         <source file="..\obj\main.o" lastModified="16a2691479b"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="16a2621cda1"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="16a2621cdd0"/>
+         <source file="..\obj\syscalls.o" lastModified="16a2621ce0e"/>
+      </target>
+   </processor>
+</history>

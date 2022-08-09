@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -I..\..\..\workspace\timer_led_2\cmsis -I..\..\..\workspace\timer_led_2\cmsis_boot -I..\..\..\workspace\timer_led_2 -I..\..\..\workspace">
+      <target file="system_stm32f4xx.o" lastModified="16a24f1d8bc">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a0c957e70"/>
+      </target>
+      <target file="main.o" lastModified="16a250209e8">
+         <source file="..\..\..\main.c" lastModified="16a2501f697"/>
+      </target>
+      <target file="syscalls.o" lastModified="16a24f1d8eb">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="16a2149907a"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="16a24f1d85f">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16a21498878"/>
+      </target>
+   </processor>
+</history>
