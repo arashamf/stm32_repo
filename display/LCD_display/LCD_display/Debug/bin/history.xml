@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=LCD_display.map -O0 --gc-sections -LD:\Soft\CooCox\CoIDE\configuration\ProgramData\LCD_display -TD:\Soft\CooCox\CoIDE\configuration\ProgramData\LCD_display/link.ld -g">
+      <target file="LCD_display.elf" lastModified="16d431ef4ec">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="16d431ef20f"/>
+         <source file="..\obj\main.o" lastModified="16d431ef26c"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="16d431ef29b"/>
+         <source file="..\obj\syscalls.o" lastModified="16d431ef2d9"/>
+         <source file="..\obj\LCD_STM32.o" lastModified="16d431ef318"/>
+      </target>
+   </processor>
+</history>

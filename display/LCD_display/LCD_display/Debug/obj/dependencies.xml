@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\lesson_4 /I..\..\..\workspace\lesson_4\LCD_display\cmsis_boot /I..\..\..\workspace\lesson_4\LCD_display\cmsis /I..\..\.. /I..\..\..\workspace /I..\..\..\workspace\lcd_lib /I..\..\..\workspace\lesson_4\LCD_display">
+      <source file="..\..\..\..\..\lcd_lib\LCD_STM32.c" lastModified="16d3f0b0cb8">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\..\..\lcd_lib\LCD_STM32.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="16d3931566b">
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="16d39315675">
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="16d393168dc">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16d39314e55">
+      </source>
+      <source file="..\..\..\main.c" lastModified="16d3e67169b">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\LCD_STM32.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="16d39315279">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\LCD_STM32.h" lastModified="16d3a4bc506">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="16d39314e69">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a359c06ff">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="16d39315661">
+      </source>
+      <source file="..\..\..\..\..\lcd_lib\LCD_STM32.h" lastModified="16d3a4bc506">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="16d3931b007">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="16d39315247">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\workspace\LCD_display\cmsis_boot /I..\..\..\workspace\LCD_display\cmsis /I..\..\..\workspace\LCD_display /I..\..\.. /I..\..\..\workspace">
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16d39314e55">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="16d39314e69">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a359c06ff">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\workspace\LCD_display\cmsis_boot /I..\..\..\workspace\LCD_display\cmsis /I..\..\..\workspace\LCD_display /I..\..\..\workspace">
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16d39314e55">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="16d39314e69">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a359c06ff">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\workspace\lesson_4 /I..\..\..\workspace\lesson_4\LCD_display\cmsis_boot /I..\..\..\workspace\lesson_4\LCD_display\cmsis /I..\..\..\workspace /I..\..\..\workspace\lesson_4\LCD_display">
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16d39314e55">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="16d39314e69">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a359c06ff">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+</dependencies>

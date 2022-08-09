@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -I..\..\..\workspace\lesson_9-3\dimmer_long -I..\..\..\workspace\lesson_9-3\dimmer_long\cmsis -I..\..\..\workspace\lesson_9-3\dimmer_long\cmsis_boot -I..\..\..\workspace\lesson_9-3">
+      <target file="system_stm32f4xx.o" lastModified="16e64ecf996">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a359c06ff"/>
+      </target>
+      <target file="syscalls.o" lastModified="16e64ecf9d2">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="16e221b4479"/>
+      </target>
+      <target file="main.o" lastModified="16e64ecf964">
+         <source file="..\..\..\main.c" lastModified="16e64ecf798"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="16e64ecf928">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16e221b2b97"/>
+      </target>
+   </processor>
+</history>

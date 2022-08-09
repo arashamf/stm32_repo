@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=dimmer_long.map -O0 --gc-sections -LD:\Soft\CooCox\CoIDE\configuration\ProgramData\dimmer_long -TD:\Soft\CooCox\CoIDE\configuration\ProgramData\dimmer_long/link.ld -g">
+      <target file="dimmer_long.elf" lastModified="16e64ecfba8">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="16e64ecf928"/>
+         <source file="..\obj\main.o" lastModified="16e64ecf964"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="16e64ecf996"/>
+         <source file="..\obj\syscalls.o" lastModified="16e64ecf9d2"/>
+      </target>
+   </processor>
+</history>

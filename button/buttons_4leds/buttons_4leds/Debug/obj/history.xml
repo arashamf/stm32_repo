@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -I..\..\..\workspace\lesson_9-1\buttons_4leds\cmsis -I..\..\..\workspace\lesson_9-1\buttons_4leds\cmsis_boot -I..\..\..\workspace\lesson_9-1 -I..\..\..\workspace\lesson_9-1\buttons_4leds">
+      <target file="system_stm32f4xx.o" lastModified="16df8dcc44c">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a359c06ff"/>
+      </target>
+      <target file="syscalls.o" lastModified="16df8dcc50a">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="16dcf0752e4"/>
+      </target>
+      <target file="main.o" lastModified="16df8dcc410">
+         <source file="..\..\..\main.c" lastModified="16dcf88b042"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="16df8dcc3c0">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16dcf074330"/>
+      </target>
+   </processor>
+</history>

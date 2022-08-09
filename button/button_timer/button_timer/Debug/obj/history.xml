@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F405VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\button_timer\cmsis -I..\..\..\workspace\button_timer -I..\..\..\workspace\button_timer\cmsis_boot -I..\..\..\workspace\button_timer\cmsis_lib\include -I..\..\..\workspace\button_timer\cmsis_lib -I..\..\..\workspace">
+      <target file="stm32f4xx_rcc.o" lastModified="16d90834796">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="16d906c0e09"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="16d90834814">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a359c06ff"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="16d908347d4">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="16d906c0dd7"/>
+      </target>
+      <target file="main.o" lastModified="16d90cd9668">
+         <source file="..\..\..\main.c" lastModified="16d90cd9319"/>
+      </target>
+      <target file="syscalls.o" lastModified="16d908348e7">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="16d8c68aa13"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="16d908346bc">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16d8c689de2"/>
+      </target>
+   </processor>
+</history>

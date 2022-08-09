@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=buttons_4leds.map -O0 --gc-sections -LD:\Soft\CooCox\CoIDE\configuration\ProgramData\buttons_4leds -TD:\Soft\CooCox\CoIDE\configuration\ProgramData\buttons_4leds/link.ld -g">
+      <target file="buttons_4leds.elf" lastModified="16df8dcc6e0">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="16df8dcc3c0"/>
+         <source file="..\obj\main.o" lastModified="16df8dcc410"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="16df8dcc44c"/>
+         <source file="..\obj\syscalls.o" lastModified="16df8dcc50a"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -I..\..\..\workspace\button_IRQ\cmsis_boot -I..\..\..\workspace\button_IRQ\cmsis -I..\..\..\workspace\button_IRQ -I..\..\..\workspace">
+      <target file="system_stm32f4xx.o" lastModified="16d90d73197">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a359c06ff"/>
+      </target>
+      <target file="main.o" lastModified="16dcf03e212">
+         <source file="..\..\..\main.c" lastModified="16dce91a061"/>
+      </target>
+      <target file="syscalls.o" lastModified="16d90d731c5">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="16d90d1444b"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="16d90d7311a">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16d90d12c8f"/>
+      </target>
+   </processor>
+</history>

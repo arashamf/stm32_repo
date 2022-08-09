@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\dimmer_long\cmsis /I..\..\..\workspace\dimmer_long\cmsis_boot /I..\..\..\workspace\dimmer_long /I..\..\..\workspace">
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="16e221b33b7">
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="16e221b33c1">
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="16e221b5419">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16e221b2b97">
+      </source>
+      <source file="..\..\..\main.c" lastModified="16e64b5afb5">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="16e221b2fbb">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="16e221b2bb5">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a359c06ff">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="16e221b33ad">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="16e221b8d53">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="16e221b2f89">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+   </includePath>
+</dependencies>

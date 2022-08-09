@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=key_PWM.map -O0 --gc-sections -LD:\Soft\CooCox\CoIDE\configuration\ProgramData\key_PWM -TD:\Soft\CooCox\CoIDE\configuration\ProgramData\key_PWM/link.ld -g">
+      <target file="key_PWM.elf" lastModified="16df8fc0ac5">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="16dd468181b"/>
+         <source file="..\obj\main.o" lastModified="16df8fc08f9"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="16dd46818f6"/>
+         <source file="..\obj\syscalls.o" lastModified="16dd46819ef"/>
+      </target>
+   </processor>
+</history>

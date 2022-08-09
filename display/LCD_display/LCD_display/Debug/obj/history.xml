@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -I..\..\..\workspace\lesson_4 -I..\..\..\workspace\lesson_4\LCD_display\cmsis_boot -I..\..\..\workspace\lesson_4\LCD_display\cmsis -I..\..\.. -I..\..\..\workspace -I..\..\..\workspace\lcd_lib -I..\..\..\workspace\lesson_4\LCD_display">
+      <target file="DELAY_TIM7.o" lastModified="16d3a0e8460">
+         <source file="..\..\..\DELAY_TIM7.c" lastModified="16b2bf3444e"/>
+      </target>
+   </processor>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -I..\..\..\workspace\lesson_4 -I..\..\..\workspace\lesson_4\LCD_display\cmsis_boot -I..\..\..\workspace\lesson_4\LCD_display\cmsis -I..\..\..\workspace -I..\..\..\workspace\lesson_4\LCD_display">
+      <target file="LCD_STM32.o" lastModified="16d431ef318">
+         <source file="..\..\..\LCD_STM32.c" lastModified="16d3f0b0cb8"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="16d431ef29b">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a359c06ff"/>
+      </target>
+      <target file="syscalls.o" lastModified="16d431ef2d9">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="16d3931593c"/>
+      </target>
+      <target file="main.o" lastModified="16d431ef26c">
+         <source file="..\..\..\main.c" lastModified="16d3e670ecb"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="16d431ef20f">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16d39314e55"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=button_timer.map -O0 --gc-sections -LD:\Soft\CooCox\CoIDE\configuration\ProgramData\button_timer -TD:\Soft\CooCox\CoIDE\configuration\ProgramData\button_timer/link.ld -g">
+      <target file="button_timer.elf" lastModified="16d90cd983c">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="16d908346bc"/>
+         <source file="..\obj\main.o" lastModified="16d90cd9668"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="16d90834796"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="16d908347d4"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="16d90834814"/>
+         <source file="..\obj\syscalls.o" lastModified="16d908348e7"/>
+      </target>
+   </processor>
+</history>

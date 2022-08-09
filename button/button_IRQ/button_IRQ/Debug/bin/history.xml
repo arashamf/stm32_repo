@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=button_IRQ.map -O0 --gc-sections -LD:\Soft\CooCox\CoIDE\configuration\ProgramData\button_IRQ -TD:\Soft\CooCox\CoIDE\configuration\ProgramData\button_IRQ/link.ld -g">
+      <target file="button_IRQ.elf" lastModified="16dcf03e5ab">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="16d90d7311a"/>
+         <source file="..\obj\main.o" lastModified="16dcf03e212"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="16d90d73197"/>
+         <source file="..\obj\syscalls.o" lastModified="16d90d731c5"/>
+      </target>
+   </processor>
+</history>
