@@ -1,0 +1,5 @@
+main.c:155:6:SystemClock_Config	96	static,ignoring_inline_asm
+main.c:81:5:main	72	static,ignoring_inline_asm
+main.c:374:6:HAL_ADC_ConvCpltCallback	0	static
+main.c:382:6:HAL_ADC_ErrorCallback	8	static
+main.c:396:6:Error_Handler	0	static,ignoring_inline_asm

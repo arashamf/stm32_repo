@@ -1,0 +1,1008 @@
+Archive member included to satisfy reference by file (symbol)
+
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubdf3.o)
+                              ..\obj\main.o (__aeabi_f2d)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
+                              ..\obj\main.o (__aeabi_ui2f)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivsf3.o)
+                              ..\obj\main.o (__aeabi_fmul)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+                              ..\obj\main.o (memset)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sprintf.o)
+                              ..\obj\main.o (sprintf)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sprintf.o) (_svfprintf_r)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-dtoa.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o) (_dtoa_r)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-freer.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o) (_free_r)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sprintf.o) (_impure_ptr)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-localeconv.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o) (_localeconv_r)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o) (_malloc_r)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memchr.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o) (memchr)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memcpy.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-dtoa.o) (memcpy)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mlock.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-freer.o) (__malloc_lock)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-dtoa.o) (_Balloc)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-s_frexp.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o) (frexp)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sbrkr.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-freer.o) (_sbrk_r)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strlen.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o) (strlen)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strncpy.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o) (strncpy)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfiprintf.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o) (__ssprint_r)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-callocr.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o) (_calloc_r)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-localeconv.o) (__global_locale)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mlock.o) (__retarget_lock_acquire_recursive)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mbtowc_r.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o) (__ascii_mbtowc)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memmove.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfiprintf.o) (memmove)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reallocr.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfiprintf.o) (_realloc_r)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sbrkr.o) (errno)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strcmp.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o) (strcmp)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wctomb_r.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o) (__ascii_wctomb)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-ctype_.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o) (_ctype_)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivdf3.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o) (__aeabi_dmul)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_cmpdf2.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o) (__aeabi_dcmpeq)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_unorddf2.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o) (__aeabi_dcmpun)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixdfsi.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o) (__aeabi_d2iz)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o) (__aeabi_uldivmod)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_dvmd_tls.o)
+                              d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+
+Allocating common symbols
+Common symbol       size              file
+
+receive_flag        0x1               ..\obj\UART_STM32.o
+__lock___atexit_recursive_mutex
+                    0x1               d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+__lock___arc4random_mutex
+                    0x1               d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+errno               0x4               d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
+msg                 0x64              ..\obj\UART_STM32.o
+__lock___env_recursive_mutex
+                    0x1               d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+__lock___sinit_recursive_mutex
+                    0x1               d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+__lock___malloc_recursive_mutex
+                    0x1               d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+buffer              0x64              ..\obj\UART_STM32.o
+__lock___at_quick_exit_mutex
+                    0x1               d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+__lock___dd_hash_mutex
+                    0x1               d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+__lock___tz_mutex   0x1               d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+__lock___sfp_recursive_mutex
+                    0x1               d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+ .data          0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+ .bss           0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+ .text          0x00000000        0x0 ..\obj\main.o
+ .bss           0x00000000        0x0 ..\obj\main.o
+ COMMON         0x00000000        0x0 ..\obj\main.o
+ .text          0x00000000        0x0 ..\obj\system_stm32f4xx.o
+ .data          0x00000000       0x14 ..\obj\system_stm32f4xx.o
+ .bss           0x00000000        0x0 ..\obj\system_stm32f4xx.o
+ .text.SystemInit
+                0x00000000       0x5c ..\obj\system_stm32f4xx.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0xf8 ..\obj\system_stm32f4xx.o
+ .text.SetSysClock
+                0x00000000       0x34 ..\obj\system_stm32f4xx.o
+ .debug_info    0x00000000      0x598 ..\obj\system_stm32f4xx.o
+ .debug_abbrev  0x00000000      0x151 ..\obj\system_stm32f4xx.o
+ .debug_aranges
+                0x00000000       0x30 ..\obj\system_stm32f4xx.o
+ .debug_ranges  0x00000000       0x20 ..\obj\system_stm32f4xx.o
+ .debug_line    0x00000000      0x23c ..\obj\system_stm32f4xx.o
+ .debug_str     0x00000000      0x3b2 ..\obj\system_stm32f4xx.o
+ .comment       0x00000000       0x76 ..\obj\system_stm32f4xx.o
+ .debug_frame   0x00000000       0x74 ..\obj\system_stm32f4xx.o
+ .ARM.attributes
+                0x00000000       0x2e ..\obj\system_stm32f4xx.o
+ .text          0x00000000        0x0 ..\obj\syscalls.o
+ .data          0x00000000        0x0 ..\obj\syscalls.o
+ .text.link     0x00000000       0x18 ..\obj\syscalls.o
+ .text._close   0x00000000       0x16 ..\obj\syscalls.o
+ .text._fstat   0x00000000       0x1e ..\obj\syscalls.o
+ .text._isatty  0x00000000       0x14 ..\obj\syscalls.o
+ .text._lseek   0x00000000       0x18 ..\obj\syscalls.o
+ .text._read    0x00000000       0x18 ..\obj\syscalls.o
+ .text._write   0x00000000       0x18 ..\obj\syscalls.o
+ .text.abort    0x00000000        0x6 ..\obj\syscalls.o
+ .text          0x00000000        0x0 ..\obj\UART_STM32.o
+ .data          0x00000000        0x0 ..\obj\UART_STM32.o
+ .text.NVIC_EnableIRQ
+                0x00000000       0x30 ..\obj\UART_STM32.o
+ .text.UART3_init_IRQ
+                0x00000000       0xbc ..\obj\UART_STM32.o
+ .text          0x00000000        0x0 ..\obj\LCD_STM32.o
+ .data          0x00000000        0x0 ..\obj\LCD_STM32.o
+ .bss           0x00000000        0x0 ..\obj\LCD_STM32.o
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .text          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+ .text          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sprintf.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sprintf.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sprintf.o)
+ .text._sprintf_r
+                0x00000000       0x3c d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sprintf.o)
+ .text          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o)
+ .text          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-dtoa.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-dtoa.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-dtoa.o)
+ .text          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-freer.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-freer.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-freer.o)
+ .text          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+ .text          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-localeconv.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-localeconv.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-localeconv.o)
+ .text.__localeconv_l
+                0x00000000        0x4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-localeconv.o)
+ .text.localeconv
+                0x00000000        0x8 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-localeconv.o)
+ .text          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memchr.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memchr.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mlock.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mlock.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mlock.o)
+ .text          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+ .text.__s2b    0x00000000       0x98 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+ .text.__ulp    0x00000000       0x40 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+ .text.__b2d    0x00000000       0xb8 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+ .text.__ratio  0x00000000       0x5c d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+ .text._mprec_log10
+                0x00000000       0x38 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+ .text.__copybits
+                0x00000000       0x48 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+ .text.__any_on
+                0x00000000       0x54 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+ .rodata.__mprec_tinytens
+                0x00000000       0x28 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+ .text          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-s_frexp.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-s_frexp.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-s_frexp.o)
+ .text          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strncpy.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strncpy.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strncpy.o)
+ .text          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfiprintf.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfiprintf.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfiprintf.o)
+ .text._svfiprintf_r
+                0x00000000      0xbac d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfiprintf.o)
+ .rodata._svfiprintf_r.str1.4
+                0x00000000       0x2f d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfiprintf.o)
+ .rodata.blanks.7344
+                0x00000000       0x10 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfiprintf.o)
+ .rodata.zeroes.7345
+                0x00000000       0x10 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfiprintf.o)
+ .text          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-callocr.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-callocr.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-callocr.o)
+ .text          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+ .text._setlocale_r
+                0x00000000       0x40 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+ .text.__locale_mb_cur_max
+                0x00000000        0xc d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+ .text.setlocale
+                0x00000000       0x10 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+ .bss._PathLocale
+                0x00000000        0x4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+ .text          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .text.__retarget_lock_init
+                0x00000000        0x4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x00000000        0x4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .text.__retarget_lock_close
+                0x00000000        0x4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x00000000        0x4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x00000000        0x4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x00000000        0x4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x00000000        0x4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .text.__retarget_lock_release
+                0x00000000        0x4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .text          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mbtowc_r.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mbtowc_r.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mbtowc_r.o)
+ .text._mbtowc_r
+                0x00000000       0x14 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mbtowc_r.o)
+ .text          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memmove.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memmove.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memmove.o)
+ .text          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reallocr.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reallocr.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reallocr.o)
+ .text          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x00000000       0x1c d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0x88 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
+ .text          0x00000000      0x2dc d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strcmp.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strcmp.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strcmp.o)
+ .debug_frame   0x00000000       0x68 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x00000000       0x1c d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strcmp.o)
+ .text          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wctomb_r.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wctomb_r.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wctomb_r.o)
+ .text._wctomb_r
+                0x00000000       0x14 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wctomb_r.o)
+ .text          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-ctype_.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-ctype_.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-ctype_.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivdf3.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_unorddf2.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_unorddf2.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixdfsi.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixdfsi.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+ .data          0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_dvmd_tls.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x08000000         0x00100000         xr
+ram              0x20000000         0x00020000         xrw
+ram1             0x10000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x20020000                _eram = 0x20020000
+
+.text           0x08000000     0x615d
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x188 ..\obj\startup_stm32f4xx.o
+                0x08000000                g_pfnVectors
+ *(.text*)
+ .text.Default_Reset_Handler
+                0x08000188       0x5c ..\obj\startup_stm32f4xx.o
+                0x08000188                Default_Reset_Handler
+                0x08000188                Reset_Handler
+ .text.Default_Handler
+                0x080001e4        0x6 ..\obj\startup_stm32f4xx.o
+                0x080001e4                RTC_Alarm_IRQHandler
+                0x080001e4                HASH_RNG_IRQHandler
+                0x080001e4                EXTI2_IRQHandler
+                0x080001e4                TIM8_CC_IRQHandler
+                0x080001e4                DebugMon_Handler
+                0x080001e4                TIM1_CC_IRQHandler
+                0x080001e4                DMA2_Stream5_IRQHandler
+                0x080001e4                HardFault_Handler
+                0x080001e4                DMA1_Stream5_IRQHandler
+                0x080001e4                SysTick_Handler
+                0x080001e4                PVD_IRQHandler
+                0x080001e4                SDIO_IRQHandler
+                0x080001e4                TAMP_STAMP_IRQHandler
+                0x080001e4                PendSV_Handler
+                0x080001e4                NMI_Handler
+                0x080001e4                CAN2_RX1_IRQHandler
+                0x080001e4                EXTI3_IRQHandler
+                0x080001e4                TIM8_TRG_COM_TIM14_IRQHandler
+                0x080001e4                TIM1_UP_TIM10_IRQHandler
+                0x080001e4                TIM8_UP_TIM13_IRQHandler
+                0x080001e4                I2C3_ER_IRQHandler
+                0x080001e4                EXTI0_IRQHandler
+                0x080001e4                I2C2_EV_IRQHandler
+                0x080001e4                DMA1_Stream2_IRQHandler
+                0x080001e4                CAN1_RX0_IRQHandler
+                0x080001e4                FPU_IRQHandler
+                0x080001e4                OTG_HS_WKUP_IRQHandler
+                0x080001e4                UsageFault_Handler
+                0x080001e4                CAN2_SCE_IRQHandler
+                0x080001e4                DMA2_Stream2_IRQHandler
+                0x080001e4                SPI1_IRQHandler
+                0x080001e4                TIM6_DAC_IRQHandler
+                0x080001e4                TIM1_BRK_TIM9_IRQHandler
+                0x080001e4                DCMI_IRQHandler
+                0x080001e4                CAN2_RX0_IRQHandler
+                0x080001e4                DMA2_Stream3_IRQHandler
+                0x080001e4                USART6_IRQHandler
+                0x080001e4                CRYP_IRQHandler
+                0x080001e4                CAN1_RX1_IRQHandler
+                0x080001e4                UART5_IRQHandler
+                0x080001e4                DMA2_Stream0_IRQHandler
+                0x080001e4                TIM4_IRQHandler
+                0x080001e4                I2C1_EV_IRQHandler
+                0x080001e4                DMA1_Stream6_IRQHandler
+                0x080001e4                DMA1_Stream1_IRQHandler
+                0x080001e4                UART4_IRQHandler
+                0x080001e4                TIM3_IRQHandler
+                0x080001e4                RCC_IRQHandler
+                0x080001e4                TIM8_BRK_TIM12_IRQHandler
+                0x080001e4                EXTI15_10_IRQHandler
+                0x080001e4                ADC_IRQHandler
+                0x080001e4                DMA1_Stream7_IRQHandler
+                0x080001e4                TIM7_IRQHandler
+                0x080001e4                CAN2_TX_IRQHandler
+                0x080001e4                TIM5_IRQHandler
+                0x080001e4                DMA2_Stream7_IRQHandler
+                0x080001e4                I2C3_EV_IRQHandler
+                0x080001e4                EXTI9_5_IRQHandler
+                0x080001e4                RTC_WKUP_IRQHandler
+                0x080001e4                ETH_WKUP_IRQHandler
+                0x080001e4                SPI2_IRQHandler
+                0x080001e4                OTG_HS_EP1_IN_IRQHandler
+                0x080001e4                MemManage_Handler
+                0x080001e4                DMA1_Stream0_IRQHandler
+                0x080001e4                CAN1_TX_IRQHandler
+                0x080001e4                SVC_Handler
+                0x080001e4                EXTI4_IRQHandler
+                0x080001e4                FSMC_IRQHandler
+                0x080001e4                ETH_IRQHandler
+                0x080001e4                OTG_HS_EP1_OUT_IRQHandler
+                0x080001e4                WWDG_IRQHandler
+                0x080001e4                TIM2_IRQHandler
+                0x080001e4                OTG_FS_WKUP_IRQHandler
+                0x080001e4                TIM1_TRG_COM_TIM11_IRQHandler
+                0x080001e4                OTG_HS_IRQHandler
+                0x080001e4                EXTI1_IRQHandler
+                0x080001e4                USART2_IRQHandler
+                0x080001e4                I2C2_ER_IRQHandler
+                0x080001e4                DMA2_Stream1_IRQHandler
+                0x080001e4                CAN1_SCE_IRQHandler
+                0x080001e4                FLASH_IRQHandler
+                0x080001e4                DMA2_Stream4_IRQHandler
+                0x080001e4                BusFault_Handler
+                0x080001e4                USART1_IRQHandler
+                0x080001e4                OTG_FS_IRQHandler
+                0x080001e4                SPI3_IRQHandler
+                0x080001e4                DMA1_Stream4_IRQHandler
+                0x080001e4                I2C1_ER_IRQHandler
+                0x080001e4                DMA2_Stream6_IRQHandler
+                0x080001e4                DMA1_Stream3_IRQHandler
+ *fill*         0x080001ea        0x2 
+ .text.main     0x080001ec      0x1fc ..\obj\main.o
+                0x080001ec                main
+ .text._sbrk    0x080003e8       0x3c ..\obj\syscalls.o
+                0x080003e8                _sbrk
+ .text.UART3_init
+                0x08000424       0x98 ..\obj\UART_STM32.o
+                0x08000424                UART3_init
+ .text.USART3_IRQHandler
+                0x080004bc       0xe8 ..\obj\UART_STM32.o
+                0x080004bc                USART3_IRQHandler
+ .text.UART3_PutByte
+                0x080005a4       0x30 ..\obj\UART_STM32.o
+                0x080005a4                UART3_PutByte
+ .text.UART3_PutRAMString
+                0x080005d4       0x2a ..\obj\UART_STM32.o
+                0x080005d4                UART3_PutRAMString
+ *fill*         0x080005fe        0x2 
+ .text.LCD_STM_INIT
+                0x08000600       0x84 ..\obj\LCD_STM32.o
+                0x08000600                LCD_STM_INIT
+ .text.LCD_CHAR_wr
+                0x08000684      0x1a8 ..\obj\LCD_STM32.o
+                0x08000684                LCD_CHAR_wr
+ .text.LCD_CHAR_init_step
+                0x0800082c       0xe0 ..\obj\LCD_STM32.o
+                0x0800082c                LCD_CHAR_init_step
+ .text.LCD_CHAR_init
+                0x0800090c       0x68 ..\obj\LCD_STM32.o
+                0x0800090c                LCD_CHAR_init
+ .text.LCD_CHAR_gotoxy
+                0x08000974       0x48 ..\obj\LCD_STM32.o
+                0x08000974                LCD_CHAR_gotoxy
+ .text.LCD_CHAR_puts
+                0x080009bc       0x32 ..\obj\LCD_STM32.o
+                0x080009bc                LCD_CHAR_puts
+ *fill*         0x080009ee        0x2 
+ .text.delay_us
+                0x080009f0       0x98 ..\obj\LCD_STM32.o
+                0x080009f0                delay_us
+ .text.delay_ms
+                0x08000a88       0x9c ..\obj\LCD_STM32.o
+                0x08000a88                delay_ms
+ .text          0x08000b24      0x378 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubdf3.o)
+                0x08000b24                __aeabi_drsub
+                0x08000b2c                __aeabi_dsub
+                0x08000b2c                __subdf3
+                0x08000b30                __aeabi_dadd
+                0x08000b30                __adddf3
+                0x08000da8                __floatunsidf
+                0x08000da8                __aeabi_ui2d
+                0x08000dc8                __floatsidf
+                0x08000dc8                __aeabi_i2d
+                0x08000dec                __aeabi_f2d
+                0x08000dec                __extendsfdf2
+                0x08000e30                __floatundidf
+                0x08000e30                __aeabi_ul2d
+                0x08000e40                __floatdidf
+                0x08000e40                __aeabi_l2d
+ .text          0x08000e9c      0x21c d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
+                0x08000e9c                __aeabi_frsub
+                0x08000ea4                __subsf3
+                0x08000ea4                __aeabi_fsub
+                0x08000ea8                __aeabi_fadd
+                0x08000ea8                __addsf3
+                0x08001008                __aeabi_ui2f
+                0x08001008                __floatunsisf
+                0x08001010                __aeabi_i2f
+                0x08001010                __floatsisf
+                0x0800102c                __aeabi_ul2f
+                0x0800102c                __floatundisf
+                0x0800103c                __aeabi_l2f
+                0x0800103c                __floatdisf
+ .text          0x080010b8      0x2a0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivsf3.o)
+                0x080010b8                __mulsf3
+                0x080010b8                __aeabi_fmul
+                0x08001220                __aeabi_fdiv
+                0x08001220                __divsf3
+ .text.memset   0x08001358       0xa0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+                0x08001358                memset
+ .text.sprintf  0x080013f8       0x44 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sprintf.o)
+                0x080013f8                sprintf
+ .text._svfprintf_r
+                0x0800143c     0x1a20 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o)
+                0x0800143c                _svfprintf_r
+ .text.quorem   0x08002e5c      0x124 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-dtoa.o)
+ .text._dtoa_r  0x08002f80      0xe60 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-dtoa.o)
+                0x08002f80                _dtoa_r
+ .text._malloc_trim_r
+                0x08003de0       0xa0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-freer.o)
+                0x08003de0                _malloc_trim_r
+ .text._free_r  0x08003e80      0x1ec d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-freer.o)
+                0x08003e80                _free_r
+ .text._localeconv_r
+                0x0800406c        0x8 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-localeconv.o)
+                0x0800406c                _localeconv_r
+ .text._malloc_r
+                0x08004074      0x570 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+                0x08004074                _malloc_r
+ *fill*         0x080045e4        0xc 
+ .text          0x080045f0       0xa0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memchr.o)
+                0x080045f0                memchr
+ .text          0x08004690      0x134 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memcpy.o)
+                0x08004690                memcpy
+ .text.__malloc_lock
+                0x080047c4        0xc d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mlock.o)
+                0x080047c4                __malloc_lock
+ .text.__malloc_unlock
+                0x080047d0        0xc d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mlock.o)
+                0x080047d0                __malloc_unlock
+ .text._Balloc  0x080047dc       0x4c d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+                0x080047dc                _Balloc
+ .text._Bfree   0x08004828       0x14 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+                0x08004828                _Bfree
+ .text.__multadd
+                0x0800483c       0x8c d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+                0x0800483c                __multadd
+ .text.__hi0bits
+                0x080048c8       0x40 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+                0x080048c8                __hi0bits
+ .text.__lo0bits
+                0x08004908       0x60 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+                0x08004908                __lo0bits
+ .text.__i2b    0x08004968       0x14 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+                0x08004968                __i2b
+ .text.__multiply
+                0x0800497c      0x130 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+                0x0800497c                __multiply
+ .text.__pow5mult
+                0x08004aac       0xa0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+                0x08004aac                __pow5mult
+ .text.__lshift
+                0x08004b4c       0xb4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+                0x08004b4c                __lshift
+ .text.__mcmp   0x08004c00       0x38 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+                0x08004c00                __mcmp
+ .text.__mdiff  0x08004c38       0xf8 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+                0x08004c38                __mdiff
+ .text.__d2b    0x08004d30       0xac d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+                0x08004d30                __d2b
+ .text.frexp    0x08004ddc       0x70 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-s_frexp.o)
+                0x08004ddc                frexp
+ .text._sbrk_r  0x08004e4c       0x24 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sbrkr.o)
+                0x08004e4c                _sbrk_r
+ *fill*         0x08004e70       0x10 
+ .text          0x08004e80       0xdc d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strlen.o)
+                0x08004e80                strlen
+ .text.strncpy  0x08004f5c       0x74 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strncpy.o)
+                0x08004f5c                strncpy
+ .text.__ssprint_r
+                0x08004fd0       0xf8 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfiprintf.o)
+                0x08004fd0                __ssprint_r
+ .text._calloc_r
+                0x080050c8       0x60 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-callocr.o)
+                0x080050c8                _calloc_r
+ .text.__retarget_lock_acquire_recursive
+                0x08005128        0x4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x08005128                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_release_recursive
+                0x0800512c        0x4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x0800512c                __retarget_lock_release_recursive
+ .text.__ascii_mbtowc
+                0x08005130       0x2c d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mbtowc_r.o)
+                0x08005130                __ascii_mbtowc
+ .text.memmove  0x0800515c       0xd0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memmove.o)
+                0x0800515c                memmove
+ .text._realloc_r
+                0x0800522c      0x36c d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reallocr.o)
+                0x0800522c                _realloc_r
+ .text.__ascii_wctomb
+                0x08005598       0x1c d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wctomb_r.o)
+                0x08005598                __ascii_wctomb
+ .text          0x080055b4      0x424 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivdf3.o)
+                0x080055b4                __aeabi_dmul
+                0x080055b4                __muldf3
+                0x08005808                __divdf3
+                0x08005808                __aeabi_ddiv
+ .text          0x080059d8      0x110 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_cmpdf2.o)
+                0x080059d8                __gtdf2
+                0x080059d8                __gedf2
+                0x080059e0                __ltdf2
+                0x080059e0                __ledf2
+                0x080059e8                __nedf2
+                0x080059e8                __eqdf2
+                0x080059e8                __cmpdf2
+                0x08005a64                __aeabi_cdrcmple
+                0x08005a74                __aeabi_cdcmpeq
+                0x08005a74                __aeabi_cdcmple
+                0x08005a84                __aeabi_dcmpeq
+                0x08005a98                __aeabi_dcmplt
+                0x08005aac                __aeabi_dcmple
+                0x08005ac0                __aeabi_dcmpge
+                0x08005ad4                __aeabi_dcmpgt
+ .text          0x08005ae8       0x2c d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_unorddf2.o)
+                0x08005ae8                __unorddf2
+                0x08005ae8                __aeabi_dcmpun
+ .text          0x08005b14       0x50 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixdfsi.o)
+                0x08005b14                __aeabi_d2iz
+                0x08005b14                __fixdfsi
+ .text          0x08005b64       0x30 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+                0x08005b64                __aeabi_uldivmod
+ .text          0x08005b94      0x2d0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x08005b94                __udivmoddi4
+ .text          0x08005e64        0x4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x08005e64                __aeabi_idiv0
+                0x08005e64                __aeabi_ldiv0
+ *(.init)
+ *(.fini)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata        0x08005e68       0x44 ..\obj\main.o
+                0x08005e68                Uref
+ .rodata        0x08005eac       0x2f ..\obj\UART_STM32.o
+ *fill*         0x08005edb        0x1 
+ .rodata._svfprintf_r.str1.4
+                0x08005edc       0x42 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o)
+ *fill*         0x08005f1e        0x2 
+ .rodata.blanks.7365
+                0x08005f20       0x10 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o)
+ .rodata.zeroes.7366
+                0x08005f30       0x10 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o)
+ .rodata._dtoa_r.str1.4
+                0x08005f40        0xd d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-dtoa.o)
+                                 0x12 (size before relaxing)
+ *fill*         0x08005f4d        0x3 
+ .rodata.__mprec_bigtens
+                0x08005f50       0x28 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+                0x08005f50                __mprec_bigtens
+ .rodata.__mprec_tens
+                0x08005f78       0xc8 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+                0x08005f78                __mprec_tens
+ .rodata.p05.6135
+                0x08006040        0xc d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+ .rodata._setlocale_r.str1.4
+                0x0800604c        0xa d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+                                  0xd (size before relaxing)
+ *fill*         0x08006056        0x2 
+ .rodata.str1.4
+                0x08006058        0x4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+                                  0x2 (size before relaxing)
+ .rodata._ctype_
+                0x0800605c      0x101 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-ctype_.o)
+                0x0800605c                _ctype_
+ *(.eh_fram e*)
+
+.glue_7         0x08006160        0x0
+ .glue_7        0x08006160        0x0 linker stubs
+
+.glue_7t        0x08006160        0x0
+ .glue_7t       0x08006160        0x0 linker stubs
+
+.vfp11_veneer   0x08006160        0x0
+ .vfp11_veneer  0x08006160        0x0 linker stubs
+
+.v4_bx          0x08006160        0x0
+ .v4_bx         0x08006160        0x0 linker stubs
+
+.iplt           0x08006160        0x0
+ .iplt          0x08006160        0x0 ..\obj\startup_stm32f4xx.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x08006160                __exidx_start = .
+
+.ARM.exidx      0x08006160        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x08006160        0x8 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x08006168                __exidx_end = .
+                0x08006168                __etext = .
+                0x08006168                _sidata = __etext
+
+.rel.dyn        0x08006168        0x0
+ .rel.iplt      0x08006168        0x0 ..\obj\startup_stm32f4xx.o
+
+.data           0x20000000      0x9ac load address 0x08006168
+                0x20000000                __data_start__ = .
+                0x20000000                _sdata = __data_start__
+ *(vtable)
+ *(.data*)
+ .data          0x20000000        0x4 ..\obj\main.o
+                0x20000000                duty
+ .data._impure_ptr
+                0x20000004        0x4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+                0x20000004                _impure_ptr
+ .data.impure_data
+                0x20000008      0x428 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+ .data.__malloc_av_
+                0x20000430      0x408 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+                0x20000430                __malloc_av_
+ .data.__malloc_sbrk_base
+                0x20000838        0x4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+                0x20000838                __malloc_sbrk_base
+ .data.__malloc_trim_threshold
+                0x2000083c        0x4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+                0x2000083c                __malloc_trim_threshold
+ .data.__global_locale
+                0x20000840      0x16c d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+                0x20000840                __global_locale
+                0x200009ac                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                PROVIDE (__preinit_array_end = .)
+                0x200009ac                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                [!provide]                PROVIDE (__init_array_end = .)
+                0x200009ac                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+                [!provide]                PROVIDE (__fini_array_end = .)
+ *(.jcr*)
+                0x200009ac                . = ALIGN (0x4)
+                0x200009ac                __data_end__ = .
+                0x200009ac                _edata = __data_end__
+
+.igot.plt       0x200009ac        0x0 load address 0x08006b14
+ .igot.plt      0x200009ac        0x0 ..\obj\startup_stm32f4xx.o
+
+.bss            0x200009ac      0x130 load address 0x08006b14
+                0x200009ac                . = ALIGN (0x4)
+                0x200009ac                __bss_start__ = .
+                0x200009ac                _sbss = __bss_start__
+ *(.bss*)
+ .bss           0x200009ac        0x4 ..\obj\syscalls.o
+ .bss           0x200009b0        0x1 ..\obj\UART_STM32.o
+                0x200009b0                ykaz_buffer
+ *fill*         0x200009b1        0x3 
+ .bss.__malloc_current_mallinfo
+                0x200009b4       0x28 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+                0x200009b4                __malloc_current_mallinfo
+ .bss.__malloc_max_sbrked_mem
+                0x200009dc        0x4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+                0x200009dc                __malloc_max_sbrked_mem
+ .bss.__malloc_max_total_mem
+                0x200009e0        0x4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+                0x200009e0                __malloc_max_total_mem
+ .bss.__malloc_top_pad
+                0x200009e4        0x4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+                0x200009e4                __malloc_top_pad
+ *(COMMON)
+ COMMON         0x200009e8       0xcc ..\obj\UART_STM32.o
+                0x200009e8                receive_flag
+                0x200009ec                msg
+                0x20000a50                buffer
+ COMMON         0x20000ab4       0x21 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x20000ab4                __lock___atexit_recursive_mutex
+                0x20000ab8                __lock___arc4random_mutex
+                0x20000abc                __lock___env_recursive_mutex
+                0x20000ac0                __lock___sinit_recursive_mutex
+                0x20000ac4                __lock___malloc_recursive_mutex
+                0x20000ac8                __lock___at_quick_exit_mutex
+                0x20000acc                __lock___dd_hash_mutex
+                0x20000ad0                __lock___tz_mutex
+                0x20000ad4                __lock___sfp_recursive_mutex
+ *fill*         0x20000ad5        0x3 
+ COMMON         0x20000ad8        0x4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
+                0x20000ad8                errno
+                0x20000adc                . = ALIGN (0x4)
+                0x20000adc                __bss_end__ = .
+                0x20000adc                _ebss = __bss_end__
+
+.heap           0x20000adc        0x0
+                0x20000adc                __end__ = .
+                0x20000adc                _end = __end__
+                0x20000adc                end = __end__
+ *(.heap*)
+                0x20000adc                __HeapLimit = .
+
+.co_stack       0x20000adc      0x804 load address 0x08006c44
+                0x20000ae0                . = ALIGN (0x8)
+ *fill*         0x20000adc        0x4 
+ *(.co_stack .co_stack.*)
+ .co_stack      0x20000ae0      0x800 ..\obj\startup_stm32f4xx.o
+                0x20000ae0                pulStack
+                0x20020000                __StackTop = (ORIGIN (ram) + LENGTH (ram))
+                0x2001f7fc                __StackLimit = (__StackTop - SIZEOF (.co_stack))
+                [!provide]                PROVIDE (__stack = __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region ram  overflowed with stack)
+LOAD ..\obj\startup_stm32f4xx.o
+LOAD ..\obj\main.o
+LOAD ..\obj\system_stm32f4xx.o
+LOAD ..\obj\syscalls.o
+LOAD ..\obj\UART_STM32.o
+LOAD ..\obj\LCD_STM32.o
+START GROUP
+LOAD d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a
+LOAD d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a
+LOAD d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a
+END GROUP
+OUTPUT(DAC_PWM.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x3fa2
+ .debug_info    0x00000000      0x11f ..\obj\startup_stm32f4xx.o
+ .debug_info    0x0000011f     0x1025 ..\obj\main.o
+ .debug_info    0x00001144      0xd60 ..\obj\syscalls.o
+ .debug_info    0x00001ea4     0x118a ..\obj\UART_STM32.o
+ .debug_info    0x0000302e      0xf74 ..\obj\LCD_STM32.o
+
+.debug_abbrev   0x00000000      0xaaa
+ .debug_abbrev  0x00000000       0xcd ..\obj\startup_stm32f4xx.o
+ .debug_abbrev  0x000000cd      0x241 ..\obj\main.o
+ .debug_abbrev  0x0000030e      0x23f ..\obj\syscalls.o
+ .debug_abbrev  0x0000054d      0x30b ..\obj\UART_STM32.o
+ .debug_abbrev  0x00000858      0x252 ..\obj\LCD_STM32.o
+
+.debug_aranges  0x00000000      0x148
+ .debug_aranges
+                0x00000000       0x28 ..\obj\startup_stm32f4xx.o
+ .debug_aranges
+                0x00000028       0x20 ..\obj\main.o
+ .debug_aranges
+                0x00000048       0x60 ..\obj\syscalls.o
+ .debug_aranges
+                0x000000a8       0x48 ..\obj\UART_STM32.o
+ .debug_aranges
+                0x000000f0       0x58 ..\obj\LCD_STM32.o
+
+.debug_ranges   0x00000000       0xf8
+ .debug_ranges  0x00000000       0x18 ..\obj\startup_stm32f4xx.o
+ .debug_ranges  0x00000018       0x10 ..\obj\main.o
+ .debug_ranges  0x00000028       0x50 ..\obj\syscalls.o
+ .debug_ranges  0x00000078       0x38 ..\obj\UART_STM32.o
+ .debug_ranges  0x000000b0       0x48 ..\obj\LCD_STM32.o
+
+.debug_line     0x00000000      0xce5
+ .debug_line    0x00000000       0xbc ..\obj\startup_stm32f4xx.o
+ .debug_line    0x000000bc      0x277 ..\obj\main.o
+ .debug_line    0x00000333      0x294 ..\obj\syscalls.o
+ .debug_line    0x000005c7      0x351 ..\obj\UART_STM32.o
+ .debug_line    0x00000918      0x3cd ..\obj\LCD_STM32.o
+
+.debug_str      0x00000000     0x10b1
+ .debug_str     0x00000000      0x18e ..\obj\startup_stm32f4xx.o
+                                0x1ad (size before relaxing)
+ .debug_str     0x0000018e      0x6cf ..\obj\main.o
+                                0x83e (size before relaxing)
+ .debug_str     0x0000085d      0x193 ..\obj\syscalls.o
+                                0x736 (size before relaxing)
+ .debug_str     0x000009f0      0x5f1 ..\obj\UART_STM32.o
+                                0xcf7 (size before relaxing)
+ .debug_str     0x00000fe1       0xd0 ..\obj\LCD_STM32.o
+                                0x846 (size before relaxing)
+
+.comment        0x00000000       0x75
+ .comment       0x00000000       0x75 ..\obj\startup_stm32f4xx.o
+                                 0x76 (size before relaxing)
+ .comment       0x00000075       0x76 ..\obj\main.o
+ .comment       0x00000075       0x76 ..\obj\syscalls.o
+ .comment       0x00000075       0x76 ..\obj\UART_STM32.o
+ .comment       0x00000075       0x76 ..\obj\LCD_STM32.o
+
+.ARM.attributes
+                0x00000000       0x2c
+ .ARM.attributes
+                0x00000000       0x2e ..\obj\startup_stm32f4xx.o
+ .ARM.attributes
+                0x0000002e       0x2e ..\obj\main.o
+ .ARM.attributes
+                0x0000005c       0x2e ..\obj\syscalls.o
+ .ARM.attributes
+                0x0000008a       0x2e ..\obj\UART_STM32.o
+ .ARM.attributes
+                0x000000b8       0x2e ..\obj\LCD_STM32.o
+ .ARM.attributes
+                0x000000e6       0x1e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000104       0x1e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x00000122       0x1e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x00000140       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000016e       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sprintf.o)
+ .ARM.attributes
+                0x0000019c       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o)
+ .ARM.attributes
+                0x000001ca       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-dtoa.o)
+ .ARM.attributes
+                0x000001f8       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-freer.o)
+ .ARM.attributes
+                0x00000226       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000254       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-localeconv.o)
+ .ARM.attributes
+                0x00000282       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x000002b0       0x1c d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memchr.o)
+ .ARM.attributes
+                0x000002cc       0x1c d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x000002e8       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x00000316       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+ .ARM.attributes
+                0x00000344       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-s_frexp.o)
+ .ARM.attributes
+                0x00000372       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x000003a0       0x1c d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x000003bc       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strncpy.o)
+ .ARM.attributes
+                0x000003ea       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfiprintf.o)
+ .ARM.attributes
+                0x00000418       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-callocr.o)
+ .ARM.attributes
+                0x00000446       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+ .ARM.attributes
+                0x00000474       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .ARM.attributes
+                0x000004a2       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mbtowc_r.o)
+ .ARM.attributes
+                0x000004d0       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x000004fe       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reallocr.o)
+ .ARM.attributes
+                0x0000052c       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
+ .ARM.attributes
+                0x0000055a       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wctomb_r.o)
+ .ARM.attributes
+                0x00000588       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x000005b6       0x1e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x000005d4       0x1e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x000005f2       0x1e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_unorddf2.o)
+ .ARM.attributes
+                0x00000610       0x1e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x0000062e       0x1e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000064c       0x2e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x0000067a       0x1e d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_dvmd_tls.o)
+
+.debug_frame    0x00000000      0xfac
+ .debug_frame   0x00000000       0x4c ..\obj\startup_stm32f4xx.o
+ .debug_frame   0x0000004c       0x34 ..\obj\main.o
+ .debug_frame   0x00000080      0x168 ..\obj\syscalls.o
+ .debug_frame   0x000001e8       0xe4 ..\obj\UART_STM32.o
+ .debug_frame   0x000002cc      0x134 ..\obj\LCD_STM32.o
+ .debug_frame   0x00000400       0xac d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x000004ac       0x4c d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x000004f8       0x38 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x00000530       0x38 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+ .debug_frame   0x00000568       0x80 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sprintf.o)
+ .debug_frame   0x000005e8       0x40 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfprintf.o)
+ .debug_frame   0x00000628       0x8c d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-dtoa.o)
+ .debug_frame   0x000006b4       0x80 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-freer.o)
+ .debug_frame   0x00000734       0x40 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-localeconv.o)
+ .debug_frame   0x00000774       0x4c d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+ .debug_frame   0x000007c0       0x30 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mlock.o)
+ .debug_frame   0x000007f0      0x260 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mprec.o)
+ .debug_frame   0x00000a50       0x30 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-s_frexp.o)
+ .debug_frame   0x00000a80       0x2c d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000aac       0x38 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strncpy.o)
+ .debug_frame   0x00000ae4       0x74 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-svfiprintf.o)
+ .debug_frame   0x00000b58       0x28 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-callocr.o)
+ .debug_frame   0x00000b80       0x54 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+ .debug_frame   0x00000bd4       0xb0 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .debug_frame   0x00000c84       0x4c d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mbtowc_r.o)
+ .debug_frame   0x00000cd0       0x40 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memmove.o)
+ .debug_frame   0x00000d10       0x48 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reallocr.o)
+ .debug_frame   0x00000d58       0x60 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
+ .debug_frame   0x00000db8       0x3c d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wctomb_r.o)
+ .debug_frame   0x00000df4       0x50 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x00000e44       0xc4 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x00000f08       0x20 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_unorddf2.o)
+ .debug_frame   0x00000f28       0x24 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x00000f4c       0x2c d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00000f78       0x34 d:/soft/ide/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)

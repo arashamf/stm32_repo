@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\ADC_2resistor\cmsis /I..\..\..\workspace\stm32_lib\UART_STM32 /I..\..\..\workspace\ADC_2resistor\cmsis_boot /I..\..\..\workspace\stm32_lib\lcd_lib /I..\..\..\workspace\stm32_lib /I..\..\..\workspace /I..\..\..\workspace\ADC_2resistor">
+      <source file="..\..\..\..\stm32_lib\UART_STM32\UART_STM32.c" lastModified="16d44bea9b7">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\..\stm32_lib\UART_STM32\UART_STM32.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="16d44846bb7">
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="16d44846bc7">
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="16d448878c9">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16d44846395">
+      </source>
+      <source file="..\..\..\..\stm32_lib\lcd_lib\LCD_STM32.h" lastModified="16d3a4bc506">
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="16d448467c0">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\..\stm32_lib\lcd_lib\LCD_STM32.c" lastModified="16d434a0ce8">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\..\stm32_lib\lcd_lib\LCD_STM32.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="16d448463a9">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a359c06ff">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\stm32_lib\UART_STM32\UART_STM32.h" lastModified="16d4474b3f7">
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="16d44846bb7">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="16d4484c547">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="16d44846787">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\workspace\ADC_2resistor\cmsis /I..\..\..\workspace\stm32_lib\UART_STM32 /I..\..\..\workspace\ADC_2resistor\cmsis_lib\include /I..\..\..\workspace\ADC_2resistor\cmsis_boot /I..\..\..\workspace\stm32_lib\lcd_lib /I..\..\..\workspace\ADC_2resistor\cmsis_lib /I..\..\..\workspace\stm32_lib /I..\..\..\workspace /I..\..\..\workspace\ADC_2resistor">
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16d44846395">
+      </source>
+      <source file="..\..\..\..\stm32_lib\lcd_lib\LCD_STM32.h" lastModified="16d3a4bc506">
+      </source>
+      <source file="..\..\..\..\stm32_lib\lcd_lib\LCD_STM32.c" lastModified="16d434a0ce8">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\..\stm32_lib\lcd_lib\LCD_STM32.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="16d448463a9">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a359c06ff">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\stm32_lib\UART_STM32\UART_STM32.h" lastModified="16d4474b3f7">
+      </source>
+   </includePath>
+</dependencies>

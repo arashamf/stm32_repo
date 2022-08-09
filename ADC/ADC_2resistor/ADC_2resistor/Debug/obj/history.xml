@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\ADC_2resistor\cmsis -I..\..\..\workspace\stm32_lib\UART_STM32 -I..\..\..\workspace\ADC_2resistor\cmsis_lib\include -I..\..\..\workspace\ADC_2resistor\cmsis_boot -I..\..\..\workspace\stm32_lib\lcd_lib -I..\..\..\workspace\ADC_2resistor\cmsis_lib -I..\..\..\workspace\stm32_lib -I..\..\..\workspace -I..\..\..\workspace\ADC_2resistor">
+      <target file="stm32f4xx_rcc.o" lastModified="16d44856e8d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="16d44846d58"/>
+      </target>
+   </processor>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -I..\..\..\workspace\ADC_2resistor\cmsis -I..\..\..\workspace\stm32_lib\UART_STM32 -I..\..\..\workspace\ADC_2resistor\cmsis_boot -I..\..\..\workspace\stm32_lib\lcd_lib -I..\..\..\workspace\stm32_lib -I..\..\..\workspace -I..\..\..\workspace\ADC_2resistor">
+      <target file="UART_STM32.o" lastModified="16d44bec15b">
+         <source file="..\..\..\..\stm32_lib\UART_STM32\UART_STM32.c" lastModified="16d44bea5cf"/>
+      </target>
+      <target file="LCD_STM32.o" lastModified="16d44888729">
+         <source file="..\..\..\..\stm32_lib\lcd_lib\LCD_STM32.c" lastModified="16d434a0ce8"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="16d4488866e">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a359c06ff"/>
+      </target>
+      <target file="main.o" lastModified="16d44c29961">
+         <source file="..\..\..\main.c" lastModified="16d44c2972f"/>
+      </target>
+      <target file="syscalls.o" lastModified="16d448886ac">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="16d44886929"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="16d44888565">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16d44846395"/>
+      </target>
+   </processor>
+</history>

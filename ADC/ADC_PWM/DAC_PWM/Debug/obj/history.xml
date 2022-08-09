@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -I..\..\..\workspace\stm32_lib\UART_STM32 -I..\..\..\workspace\DAC_PWM -I..\..\..\workspace\DAC_PWM\cmsis_boot -I..\..\..\workspace\stm32_lib\lcd_lib -I..\..\..\workspace\stm32_lib -I..\..\..\workspace\DAC_PWM\cmsis -I..\..\..\workspace">
+      <target file="UART_STM32.o" lastModified="16d4962366f">
+         <source file="..\..\..\..\stm32_lib\UART_STM32\UART_STM32.c" lastModified="16d44bea5cf"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="16d496235f2">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16a359c06ff"/>
+      </target>
+      <target file="LCD_STM32.o" lastModified="16d498261d7">
+         <source file="..\..\..\..\stm32_lib\lcd_lib\LCD_STM32.c" lastModified="16d498243eb"/>
+      </target>
+      <target file="main.o" lastModified="16d498a12db">
+         <source file="..\..\..\main.c" lastModified="16d498a1135"/>
+      </target>
+      <target file="syscalls.o" lastModified="16d49623630">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="16d483b08d2"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="16d496234d9">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16d483afe25"/>
+      </target>
+   </processor>
+</history>

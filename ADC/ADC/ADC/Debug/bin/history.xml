@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=ADC.map -O0 --gc-sections -LD:\Soft\CooCox\CoIDE\configuration\ProgramData\ADC -TD:\Soft\CooCox\CoIDE\configuration\ProgramData\ADC/link.ld -g">
+      <target file="ADC.elf" lastModified="16d44780ccb">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="16d44722697"/>
+         <source file="..\obj\main.o" lastModified="16d4475126b"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="16d447226c6"/>
+         <source file="..\obj\syscalls.o" lastModified="16d447226f5"/>
+         <source file="..\obj\UART_STM32.o" lastModified="16d44780ad8"/>
+         <source file="..\obj\LCD_STM32.o" lastModified="16d44722733"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=DAC_PWM.map -O0 --gc-sections -LD:\Soft\CooCox\CoIDE\configuration\ProgramData\DAC_PWM -TD:\Soft\CooCox\CoIDE\configuration\ProgramData\DAC_PWM/link.ld -g">
+      <target file="DAC_PWM.elf" lastModified="16d498a14ce">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="16d496234d9"/>
+         <source file="..\obj\main.o" lastModified="16d498a12db"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="16d496235f2"/>
+         <source file="..\obj\syscalls.o" lastModified="16d49623630"/>
+         <source file="..\obj\UART_STM32.o" lastModified="16d4962366f"/>
+         <source file="..\obj\LCD_STM32.o" lastModified="16d498261d7"/>
+      </target>
+   </processor>
+</history>
