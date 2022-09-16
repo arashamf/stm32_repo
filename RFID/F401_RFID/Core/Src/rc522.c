@@ -230,8 +230,10 @@ uint8_t MFRC522_Auth(uint8_t authMode, uint8_t BlockAddr, uint8_t* Sectorkey, ui
 	// Verify the command block address + sector + password + card serial number
 	buff[0] = authMode;
 	buff[1] = BlockAddr;
-	for (i = 0; i < 6; i++) buff[i+2] = *(Sectorkey+i);
-	for (i=0; i<4; i++) buff[i+8] = *(serNum+i);
+	for (i = 0; i < 6; i++) 
+		buff[i+2] = *(Sectorkey+i);
+	for (i=0; i<4; i++) 
+		buff[i+8] = *(serNum+i);
 	status = MFRC522_ToCard(PCD_AUTHENT, buff, 12, buff, &recvBits);
 	if ((status != MI_OK) || (!(MFRC522_ReadRegister(MFRC522_REG_STATUS2) & 0x08))) status = MI_ERR;
 	return status;
