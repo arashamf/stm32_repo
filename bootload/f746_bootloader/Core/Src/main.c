@@ -50,7 +50,7 @@ SD_HandleTypeDef hsd1;
 
 UART_HandleTypeDef huart6;
 
-char UART_msg_TX [50]; //буффер сообщений UARTS
+char UART_msg_TX [60]; //буффер сообщений UARTS
 
 FATFS log_fs ;    // рабочая область (file system object) для логических диска
 FIL bootfile;     //файловый объект 
@@ -62,9 +62,8 @@ char filename [50];
 char ver_in_sd[9];
 char ver_in_flash[8];
 
-char rtext[100]; // File read buffer 
+//char rtext[100]; // File read buffer 
 	
-//char read_file [] = "bootloader.txt"; //название файла для логгирования	
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -233,7 +232,6 @@ unsigned int scan_files (char* path )
 void UpgradeFirmware(void)
 {
 	char buffer[512];
-//~	unsigned int i=0,x=0,size=0,per=0,per_done=0;
 	unsigned int offset=0;
 	static uint32_t bytesread;
 	FRESULT result;
@@ -246,7 +244,7 @@ void UpgradeFirmware(void)
 		UART6_SendString("Start flash programming\r\n"); 					
 		HAL_FLASH_Unlock();	
 				 
-		for(unsigned int i=0; i<65536; i++)
+		for(unsigned int i=0; i<1000; i++)
 		{
 			result = f_read(&bootfile, buffer, sizeof(buffer), (void *)&bytesread);						
 			if(result != FR_OK) 
@@ -258,17 +256,24 @@ void UpgradeFirmware(void)
 												
 			for (unsigned int x=0; x<bytesread; x++)
 			{
-				HAL_FLASH_Program(TYPEPROGRAM_BYTE, APPLICATION_ADDRESS+offset, buffer[x]);
+				HAL_FLASH_Program(TYPEPROGRAM_BYTE, APPLICATION_ADDRESS+offset, buffer[x]); //запись во flash побайтно
 				offset=offset+1;
 			}		
 		}															
 		HAL_FLASH_Lock();					
 		UART6_SendString("Finish flash programming\r\n"); 				 	 
 			
-		f_close(&bootfile);					
-//		LED_OK(0);
-//		NVIC_SystemReset();
+		if ((result = f_close(&bootfile)) != FR_OK)
+		{
+			sprintf (UART_msg_TX,"incorrect_close_file. code=%u\r\n", result);
+			UART6_SendString (UART_msg_TX);
+		}	
 	}	
+	else
+	{
+		sprintf (UART_msg_TX, "file not open\r\n");
+		UART6_SendString(UART_msg_TX);	
+	}
 }
 
 //****************************************************************************************************************************************************//
