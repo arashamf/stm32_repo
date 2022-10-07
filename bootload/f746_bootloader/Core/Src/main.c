@@ -53,8 +53,7 @@ UART_HandleTypeDef huart6;
 char UART_msg_TX [50]; //буффер сообщений UARTS
 
 FATFS log_fs ;    // рабочая область (file system object) для логических диска
-FIL logfile;     //файловый объект 
-//char logSDPath;  // User logical drive path 
+FIL bootfile;     //файловый объект 
 
 unsigned int byteswritten, bytesread; //количество байт которые необходимо прочитать
 uint8_t result; //код возврата функций FatFs
@@ -138,22 +137,22 @@ void EraseFlash(void)
 unsigned int ReadFirmwareVersion(void)
 {
 	static uint32_t bytesread;	
-	if(f_open(&logfile,filename, FA_READ) != FR_OK)
+	if(f_open(&bootfile,filename, FA_READ) != FR_OK)
 	{
-		f_close(&logfile);
+		f_close(&bootfile);
 		return 0;	
 	}
-	if(f_lseek(&logfile,0x10000)!= FR_OK) //расширение файла до размера 0x10000 байт
+	if(f_lseek(&bootfile,0x10000)!= FR_OK) //расширение файла до размера 0x10000 байт
 	{
-		f_close(&logfile);
+		f_close(&bootfile);
 		return 0;	
 	}	
-	if(f_read(&logfile,ver_in_sd,8,(void *)&bytesread)!= FR_OK)
+	if(f_read(&bootfile,ver_in_sd,8,(void *)&bytesread)!= FR_OK)
 	{
-		f_close(&logfile);
+		f_close(&bootfile);
 		return 0;	
 	}		
-	f_close(&logfile);		
+	f_close(&bootfile);		
 	return 1;		
 }
 
@@ -239,7 +238,7 @@ void UpgradeFirmware(void)
 	static uint32_t bytesread;
 	FRESULT result;
 			
-	if(f_open(&logfile, filename, FA_READ) == FR_OK)
+	if(f_open(&bootfile, filename, FA_READ) == FR_OK)
   {
 		sprintf (UART_msg_TX, "Found firmware file-%s\r\n", filename);
 		UART6_SendString(UART_msg_TX);			 		 			 		 				 				 
@@ -249,7 +248,7 @@ void UpgradeFirmware(void)
 				 
 		for(unsigned int i=0; i<65536; i++)
 		{
-			result = f_read(&logfile, buffer, sizeof(buffer), (void *)&bytesread);						
+			result = f_read(&bootfile, buffer, sizeof(buffer), (void *)&bytesread);						
 			if(result != FR_OK) 
 			{
 				UART6_SendString("Error reading file\r\n");
@@ -266,7 +265,7 @@ void UpgradeFirmware(void)
 		HAL_FLASH_Lock();					
 		UART6_SendString("Finish flash programming\r\n"); 				 	 
 			
-		f_close(&logfile);					
+		f_close(&bootfile);					
 //		LED_OK(0);
 //		NVIC_SystemReset();
 	}	
@@ -284,13 +283,19 @@ void Go_To_User_App(void)
 
      __disable_irq();
 		
-    app_jump_address = *( uint32_t*) (APPLICATION_ADDRESS + 4);    
+		MX_FATFS_DeInit();
+		HAL_SD_DeInit (&hsd1);
+		HAL_UART_MspDeInit(&huart6);
+		HAL_RCC_DeInit ();
+		HAL_DeInit();
+		
+	
+    app_jump_address = *( uint32_t*) (APPLICATION_ADDRESS + 4); //адрес перехода + адрес Reset Handler    
     Jump_To_Application = (pFunction)app_jump_address;            
 	
-		SCB->VTOR =  APPLICATION_ADDRESS; 
+		SCB->VTOR =  APPLICATION_ADDRESS; //адрес таблицы прерываний для запускаемой программы
 	
-		//   Initialize user application's Stack Pointer
-      __set_MSP(*(__IO uint32_t*) APPLICATION_ADDRESS);                                                
+		__set_MSP(*(__IO uint32_t*) APPLICATION_ADDRESS);   //  инициализация указателя на стек для запускаемой программы                                            
     Jump_To_Application();		                       
 }
 
@@ -310,7 +315,7 @@ void ExitBootloader(void)
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-	unsigned int timer=0;
+//	unsigned int timer=0;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -342,50 +347,25 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	/*	if((result = f_open(&logfile, "logfile.txt", FA_READ)) != FR_OK)
-    {
-			sprintf (UART_msg_TX,"incorrect_open_readfile. code=%u\r\n", result);
-			UART6_SendString (UART_msg_TX);
-		}
-		else
-		{
-			f_gets (rtext, sizeof (rtext), &logfile); //копирование одной строки
-			sprintf (UART_msg_TX,"%s\r\n", rtext);
-			UART6_SendString (UART_msg_TX);
-			if ((result = f_close(&logfile)) != FR_OK)
-			{
-				sprintf (UART_msg_TX,"incorrect_close_readfile. code=%u\r\n", result);
-				UART6_SendString (UART_msg_TX);
-			}				
-		}*/
 		if(mount_card (&log_fs) == MSD_OK)
 		{
 			result =	scan_files ("/");
-//			sprintf (UART_msg_TX,"code=%u\r\n", result);
-//			UART6_SendString (UART_msg_TX);
 			switch (result)
 			{
 				case FILE_NOT_FOUND:
 					//NVIC_SystemReset();
-					ExitBootloader();
 					break;
 				case NO_SD_CARD:
-					ExitBootloader();
 					break;
 				case FOUND_SAME_FIRMWARE:
 					LED(1);
 					UpgradeFirmware();
 					LED(0);
-					NVIC_SystemReset();
-				//	ExitBootloader();
 					break;
 				case FOUND_NEW_FIRMWARE:
 					LED(1);
 					UpgradeFirmware();
-					HAL_SD_Abort(&hsd1);
 					LED(0);
-					//NVIC_SystemReset();
-					ExitBootloader();
 					break;
 			}			
 	/*		timer++;
@@ -394,7 +374,7 @@ int main(void)
 				ExitBootloader();
 			}*/
 		}	
-		HAL_Delay (1000);
+		HAL_Delay (500);
 		ExitBootloader();
     /* USER CODE END WHILE */
 

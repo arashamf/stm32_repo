@@ -82,10 +82,7 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-	__disable_irq();
-	SCB->VTOR = APPLICATION_ADDRESS;
-
-	__enable_irq();
+	__enable_irq(); //включение всех прерываний
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -101,7 +98,7 @@ int main(void)
   MX_USART6_UART_Init();
   MX_FATFS_Init();
   /* USER CODE BEGIN 2 */
-
+	UART6_SendString ("main programm start\r\n");
   /* USER CODE END 2 */
 
   /* Infinite loop */

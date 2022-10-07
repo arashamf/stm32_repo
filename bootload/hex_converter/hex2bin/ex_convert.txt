@@ -1,0 +1,1 @@
+E:\hex2bin\hex2bin.exe boot.hex
