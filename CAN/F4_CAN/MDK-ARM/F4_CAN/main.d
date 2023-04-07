@@ -41,7 +41,7 @@ f4_can/main.o: ..\Core\Src\main.c ..\Core\Inc\main.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_dma.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usart.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_gpio.h \
-  ..\Core\Inc\can.h ..\Core\Inc\tim.h ..\Core\Inc\usart.h \
-  ..\Core\Inc\gpio.h ..\Core\Inc\lib_delay.h \
+  ..\Core\Inc\can.h ..\Core\Inc\main.h ..\Core\Inc\tim.h \
+  ..\Core\Inc\usart.h ..\Core\Inc\gpio.h ..\Core\Inc\lib_delay.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h

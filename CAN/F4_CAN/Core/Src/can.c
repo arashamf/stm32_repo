@@ -277,8 +277,7 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
 		sprintf (buffer_TX_UART3, "id:%x, msg:%c%c%c%c%c%c%c%c\r\n", CAN1_Rx_buf.StdId, CAN_RxData[0], CAN_RxData[1], 
 		CAN_RxData[2], CAN_RxData[3], CAN_RxData[4], CAN_RxData[5], CAN_RxData[6], CAN_RxData[7]);	
 		UART3_PutString (buffer_TX_UART3);
-		LED_RED (0);
-  }	
+	}	
 	if(HAL_CAN_GetRxMessage (&hcan2, CAN_RX_FIFO0, &CAN2_Rx_buf, CAN_RxData) == HAL_OK) //если пришло прерывание получения пакета в буфер FIFO0 CAN1
   {
 		
@@ -294,14 +293,14 @@ void HAL_CAN_RxFifo1MsgPendingCallback(CAN_HandleTypeDef *hcan)
 {
 	if(HAL_CAN_GetRxMessage (&hcan1, CAN_RX_FIFO1, &CAN1_Rx_buf, CAN_RxData) == HAL_OK) //если пришло прерывание получения пакета в буфер FIFO0 CAN1
   {
-		
+		LED_GREEN (1);
 		sprintf (buffer_TX_UART3, "can1:%x%x%x%x%x%x%x%x\r\n", CAN_RxData[0], CAN_RxData[1], CAN_RxData[2], CAN_RxData[3], CAN_RxData[4], CAN_RxData[5], CAN_RxData[6], CAN_RxData[7]);	
 		UART3_PutString (buffer_TX_UART3);
-		LED_RED (0);
+		LED_GREEN (0);
   }	
 	if(HAL_CAN_GetRxMessage (&hcan2, CAN_RX_FIFO1, &CAN2_Rx_buf, CAN_RxData) == HAL_OK) //если пришло прерывание получения пакета в буфер FIFO0 CAN1
   {
-		
+		LED_GREEN (1);
 		sprintf (buffer_TX_UART3, "can2:%x%x%x%x%x%x%x%x\r\n", CAN_RxData[0], CAN_RxData[1], CAN_RxData[2], CAN_RxData[3], CAN_RxData[4], CAN_RxData[5], CAN_RxData[6], CAN_RxData[7]);	
 		UART3_PutString (buffer_TX_UART3);
 		LED_GREEN (0);
@@ -381,6 +380,7 @@ void CAN1_Send_Message (uint8_t * CAN_TxData)
 		sprintf (buffer_TX_UART3, "CAN1_TX_ERROR=%u", errorcode);
 		UART3_PutString (buffer_TX_UART3);
 	}
+	LED_RED (0);
 }
 
 //--------------------------------------------------------------------------------//
@@ -428,6 +428,7 @@ void CAN1_Send_C1 ()
 		sprintf (buffer_TX_UART3, "CAN1_TX_ERROR=%u", errorcode);
 		UART3_PutString (buffer_TX_UART3);
 	}
+	LED_RED (0);
 }
 
 //--------------------------------------------------------------------------------//
@@ -437,7 +438,7 @@ void CAN2_Send_Message (uint8_t * CAN_TxData)
 	uint8_t CAN_Tx_buffer[8];
 	uint32_t uwCounter = 0;
 	
-	LED_GREEN (1);
+	LED_RED (1);
 	
 	TxHeader.StdId = 0x10F; //ID заголовка
 	TxHeader.ExtId = 0;
@@ -479,5 +480,6 @@ void CAN2_Send_Message (uint8_t * CAN_TxData)
 		sprintf (buffer_TX_UART3, "CAN2_TX_ERROR=%u", errorcode);
 		UART3_PutString (buffer_TX_UART3);
 	}
+	LED_RED (0);
 }
 /* USER CODE END 1 */

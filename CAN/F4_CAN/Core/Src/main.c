@@ -99,8 +99,7 @@ int main(void)
 
 	UART3_PutString("start\r\n");
 
-	LED_ORANGE(0);
-	LED_BLUE(1);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -109,11 +108,13 @@ int main(void)
   {
 
 		delay_ms (1500);
-		TOOGLE_LED_ORANGE;
+		LED_ORANGE(0);
+		LED_BLUE(1);
 		CAN1_Send_C1 ();
 		
 		delay_ms (1500);
 		TOOGLE_LED_BLUE;
+		TOOGLE_LED_ORANGE;
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
