@@ -153,7 +153,7 @@ void lcd7735_putchar(unsigned char x, unsigned char y, unsigned char chr, unsign
 
 	spi2_16b_init(); // переходим в 16 бит
 	LCD_DC1; //закоментить для 8 бит
-  unsigned char k, h; unsigned int color;
+	unsigned char k, h; unsigned int color;
 	for (i=0;i<7;i++)
 	{
 		for (k=2;k>0;k--) //к=1 верхняя половина символа,2 нижняя
