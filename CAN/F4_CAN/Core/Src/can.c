@@ -29,8 +29,9 @@ CAN_TxHeaderTypeDef TxHeader; //структура TxHeader отвечает з�
 CAN_RxHeaderTypeDef CAN1_Rx_buf; //структура для приёма сообщения CAN1
 CAN_RxHeaderTypeDef CAN2_Rx_buf; //структура для приёма сообщения CAN2
 
-uint32_t TxMailbox = 0;//номер почтового ящика для отправки
-uint8_t CAN_RxData [10]; //буффер принятого сообщения по CAN
+static uint32_t TxMailbox = 0;//номер почтового ящика для отправки
+static uint8_t CAN_RxData [10]; //буффер принятого сообщения по CAN
+static uint32_t ID_C1;
 /* USER CODE END 0 */
 
 CAN_HandleTypeDef hcan1;
@@ -136,7 +137,9 @@ void MX_CAN2_Init(void)
   }
 	HAL_CAN_Start(&hcan2);
 	HAL_CAN_ActivateNotification(&hcan2, CAN_IT_RX_FIFO0_MSG_PENDING | CAN_IT_ERROR | CAN_IT_BUSOFF | CAN_IT_LAST_ERROR_CODE);
-  /* USER CODE END CAN2_Init 2 */
+ 
+	ID_C1 = MAKE_FRAME_ID(CAN_MSG_TYPE_C_ID, MY_MODULE_ADDR); //формирование и сохранение ID CAN-сообщения
+	/* USER CODE END CAN2_Init 2 */
 
 }
 
@@ -271,20 +274,23 @@ void HAL_CAN_MspDeInit(CAN_HandleTypeDef* canHandle)
 //----------------------------------коллбэк для буфера приёма FIFO №0----------------------------------//
 void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) 
 {
+	LED_GREEN (1);
 	if(HAL_CAN_GetRxMessage (&hcan1, CAN_RX_FIFO0, &CAN1_Rx_buf, CAN_RxData) == HAL_OK) //если пришло прерывание получения пакета в буфер FIFO0 CAN1
   {
-		
-		sprintf (buffer_TX_UART3, "id:%x, msg:%c%c%c%c%c%c%c%c\r\n", CAN1_Rx_buf.StdId, CAN_RxData[0], CAN_RxData[1], 
-		CAN_RxData[2], CAN_RxData[3], CAN_RxData[4], CAN_RxData[5], CAN_RxData[6], CAN_RxData[7]);	
+		LED_GREEN (1);
+	//	sprintf (buffer_TX_UART3, "id:%x, msg:%c%c%c%c%c%c%c%c\r\n", CAN1_Rx_buf.StdId, CAN_RxData[0], CAN_RxData[1], 
+		//CAN_RxData[2], CAN_RxData[3], CAN_RxData[4], CAN_RxData[5], CAN_RxData[6], CAN_RxData[7]);
+		sprintf (buffer_TX_UART3, "id:%x, msg:%x_%x\r\n", CAN1_Rx_buf.StdId, CAN_RxData[0], CAN_RxData[1]);
 		UART3_PutString (buffer_TX_UART3);
+		LED_GREEN (0);
 	}	
 	if(HAL_CAN_GetRxMessage (&hcan2, CAN_RX_FIFO0, &CAN2_Rx_buf, CAN_RxData) == HAL_OK) //если пришло прерывание получения пакета в буфер FIFO0 CAN1
   {
-		
+		LED_RED (1);
 		sprintf (buffer_TX_UART3, "id:%x, msg:%c%c%c%c%c%c%c%c\r\n", CAN1_Rx_buf.StdId, CAN_RxData[0], CAN_RxData[1], 
 		CAN_RxData[2], CAN_RxData[3], CAN_RxData[4], CAN_RxData[5], CAN_RxData[6], CAN_RxData[7]);	
 		UART3_PutString (buffer_TX_UART3);
-		LED_GREEN (0);
+		LED_RED (0);
   }	
 }
 
@@ -300,10 +306,10 @@ void HAL_CAN_RxFifo1MsgPendingCallback(CAN_HandleTypeDef *hcan)
   }	
 	if(HAL_CAN_GetRxMessage (&hcan2, CAN_RX_FIFO1, &CAN2_Rx_buf, CAN_RxData) == HAL_OK) //если пришло прерывание получения пакета в буфер FIFO0 CAN1
   {
-		LED_GREEN (1);
+		LED_RED (1);
 		sprintf (buffer_TX_UART3, "can2:%x%x%x%x%x%x%x%x\r\n", CAN_RxData[0], CAN_RxData[1], CAN_RxData[2], CAN_RxData[3], CAN_RxData[4], CAN_RxData[5], CAN_RxData[6], CAN_RxData[7]);	
 		UART3_PutString (buffer_TX_UART3);
-		LED_GREEN (0);
+		LED_RED (0);
   }	
 }
 
@@ -341,7 +347,7 @@ void CAN1_Send_Message (uint8_t * CAN_TxData)
 	LED_RED (1);
 	
 	TxHeader.StdId = 0x10F; //ID заголовка
-	TxHeader.ExtId = 8;
+	TxHeader.ExtId = 0;
 	TxHeader.RTR = CAN_RTR_DATA; //тип сообщения (CAN_RTR_Data - передача данных)
 	TxHeader.IDE = CAN_ID_STD;   //формат кадра Standard
 	TxHeader.DLC = 8; //количество байт в сообщении
@@ -392,7 +398,7 @@ void CAN1_Send_C1 ()
 	
 	LED_RED (1);
 	
-	TxHeader.StdId = (ID_C1<<5) | ID_adress; //ID заголовка
+	TxHeader.StdId = ID_C1; //ID заголовка
 	TxHeader.ExtId = 0;
 	TxHeader.RTR = CAN_RTR_REMOTE; //тип сообщения (CAN_RTR_Data - передача данных)
 	TxHeader.IDE = CAN_ID_STD;   //формат кадра Standard

@@ -96,7 +96,8 @@ int main(void)
   MX_TIM13_Init();
   MX_CAN2_Init();
   /* USER CODE BEGIN 2 */
-
+	LED_ORANGE(0);
+	LED_BLUE(1);
 	UART3_PutString("start\r\n");
 
 
@@ -108,8 +109,8 @@ int main(void)
   {
 
 		delay_ms (1500);
-		LED_ORANGE(0);
-		LED_BLUE(1);
+		TOOGLE_LED_BLUE;
+		TOOGLE_LED_ORANGE;
 		CAN1_Send_C1 ();
 		
 		delay_ms (1500);

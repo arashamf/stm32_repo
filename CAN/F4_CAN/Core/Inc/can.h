@@ -37,8 +37,18 @@ extern CAN_HandleTypeDef hcan1;
 extern CAN_HandleTypeDef hcan2;
 
 /* USER CODE BEGIN Private defines */
-#define ID_C1 0b010000
-#define ID_adress 0b01010
+/*#define ID_C1 0b010000
+#define ID_adress 0b01010*/
+
+#define CAN_MSG_TYPE_A1_ID	0x01
+#define CAN_MSG_TYPE_B_ID	0x08
+#define CAN_MSG_TYPE_C_ID	0x10
+#define CAN_MSG_TYPE_D_ID	0x20
+
+#define MY_MODULE_TYPE 0x0C	// Код типа модуля - МЛК3
+#define MY_MODULE_ADDR 0x1F	//временный адрес модуля
+
+#define MAKE_FRAME_ID( msg_type_id, board_addr) ((((uint32_t)msg_type_id) << 5) | board_addr) 
 /* USER CODE END Private defines */
 
 void MX_CAN1_Init(void);
