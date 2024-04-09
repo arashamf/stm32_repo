@@ -97,8 +97,8 @@ void shutdown_display (uint8_t number_display)
 void putchar_display (uint8_t number_display, uint8_t first_registr_string, uint8_t (*numb) [8], uint8_t number_digit)
 {
 	for (uint8_t count = 0; count < 8; count++)
-		{
+	{
 		send_data_displey (number_display, (first_registr_string + count), *(*(numb + number_digit)+count)); //получим и передадим значение из двухмерного массива
-		}
+	}
 
 }
